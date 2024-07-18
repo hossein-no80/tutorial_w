@@ -1,0 +1,89 @@
+body{
+    background-color: #f1eded;
+    font-size: 16px;
+    font-family: Poppins-SB1  sans-serif;
+}
+@font-face {
+    font-family: Poppins-SB1;
+    src: url("./Poppins-SemiBold.ttf");
+}
+
+.general-format{
+    width: 80%;
+    height: 840px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 17px auto;
+
+}
+.container1{
+    flex: 1;
+}
+.container2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container2 .user-pass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+.user-pass input{
+    border: 2px solid #eceeec;
+    height: 55px;
+    width: 200px;
+    outline: none;
+    font-size: 18px;
+    padding: 0px 20px 0px 20px;
+}
+.user-pass input::placeholder{
+    font-size: 1em;
+    color: #aba8a8;
+}
+
+.container2 .button_sub{
+    flex: 1;
+
+}
+.container2 .button_sub button{
+    width: 480px;
+    height: 50px;
+    background-color: #379b49;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    transition: background-color .2s ease-in-out;
+}
+.container2 .button_sub button:hover{
+    background-color: #090202;
+}
+
+.container2 .forgot-1{
+    flex: 3;
+    color: #1fa21f;
+}
+
+.container2 .footer1{
+    flex: 1;
+    color: #22af22;
+}
+.container2 > span{
+    font-size: 1.3em;
+    font-family: Poppins-EL, sans-serif;
+    color: #5d5a5a;
+    margin-top: 300px;
+    flex:.7;
+}
+a{
+    text-decoration: none;
+    color: #938e8e;
+}
