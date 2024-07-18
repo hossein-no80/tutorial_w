@@ -1,16 +1,16 @@
 body{
     font-size: 18px;
-    background-image: url("./GHAB MEDIA DESKTOP 286.jpg");
+    background-image: url("GHAB MEDIA DESKTOP 286.jpg");
     font-family: Poppins-SB, sans-serif;
 }
 
 @font-face {
     font-family: 'Poppins-SB';
-    src: url('./Poppins-SemiBold.ttf');
+    src: url('Poppins-SemiBold.ttf');
 }
 @font-face {
     font-family: 'Poppins-EL';
-    src: url('./Poppins-ExtraLight.ttf');
+    src: url('Poppins-ExtraLight.ttf');
 }
 .container{
     width: 500px;
