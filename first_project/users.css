@@ -31,7 +31,6 @@ body{
 }
 .edit-input input{
     border: none;
-    border-bottom: 2px solid #cec8c8;
     outline: none;
     width: 380px;
     height: 45px;
@@ -52,16 +51,35 @@ body{
     flex: 1.3;
     font-family: Poppins-EL, sans-serif;
 }
+.input-field input:focus::placeholder {
+    color: transparent; /* Hide placeholder text on focus */
+}
+
+.input-field{
+    border-bottom: 2px solid #cec8c8;
+}
+.input-field i{
+    color: gray;
+}
+
+.input-field:focus-within i {
+    color: #A64BF4; /* Icon color on focus/active */
+}
+
+
 .forgot{
     width: 78%;
     display: flex;
     justify-content: flex-end;
     flex: 1;
     font-size: .8em;
-    color: black;
+    color: #666;
     font-family: Poppins-EL, sans-serif;
     font-weight: bold;
     margin-top: 10px;
+}
+.forgot :hover{
+    color: #A64BF4
 }
 
 .buttons{
@@ -69,7 +87,7 @@ body{
 }
 .text-p{
     flex: 1;
-    font-size: .9em;
+    font-size: 14px;
 }
 .icon-1{
     flex: 3;
@@ -106,4 +124,23 @@ a{
     color: white;
     font-weight: bold;
 
+}
+
+.icon-1{
+    display: flex;
+}
+.icon-1 .social-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7175e7;
+    color: #fff;
+}
+.icon-1 .social-logo:hover{
+    background-color: #3B5998;
 }

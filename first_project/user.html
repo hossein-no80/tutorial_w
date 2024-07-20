@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="users.css">
     <title>Document</title>
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
-            integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer" />
 </head>
 <body>
 <div class="container">
@@ -19,11 +13,17 @@
     </div>
     <div class="edit-input">
         <span class="">Username</span><br>
-        <input type="text" name="username" placeholder="Type your username">
+        <div class="input-field" >
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="username" placeholder="Type your username">
+        </div>
     </div>
     <div class="edit-input" style="margin-top: 20px">
         <span class="">Password</span><br>
-        <input type="password" name="pass" placeholder="Type your password">
+        <div class="input-field" >
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="pass" placeholder="Type your password">
+        </div>
     </div>
     <div class="forgot">
         <a href="#">Forgot password?</a>
@@ -35,9 +35,15 @@
         <p>Or Sign Up Using</p>
     </div>
     <div class="icon-1">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-google"></i>
+        <a href="#" class="social-logo">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="social-logo">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="social-logo">
+            <i class="fa-brands fa-google"></i>
+        </a>
     </div>
     <div class="footer-1">
         <span>Or Sign Up Using</span><br>
