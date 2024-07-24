@@ -335,6 +335,15 @@ ul{
         font-size: .8em;
         border: 1px solid rgb(196, 193, 193);
     }
+    .contact .form1 button{
+        background-color: black;
+        color: white;
+        padding: 7px;
+        font-size: .8em;
+        margin:10px 3%;
+        border: none;
+        outline: none;
+    }
 
 
 }
@@ -349,6 +358,15 @@ ul{
         padding: 7px;
         font-size: .8em;
         border: 1px solid rgb(196, 193, 193);
+    }
+    .contact .form1 button{
+        background-color: black;
+        color: white;
+        padding: 7px;
+        font-size: .8em;
+        margin:10px 2%;
+        border: none;
+        outline: none;
     }
     
 }
