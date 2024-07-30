@@ -18,11 +18,13 @@ ul{
     }
     .header .container{
         position: fixed;
+        z-index: 1;
         background-color: #fff;
         width: 100%;
         display: flex;
         padding: 18px;
         box-shadow: 0px 2px rgb(226, 226, 226);
+
 
 
     }
@@ -48,11 +50,12 @@ ul{
         margin-top: 20px;
         width: 430px;
         position: relative;
-
     }
+
     .main .project .box-img img{
         width: 100%;
     }
+
     .main .project .box-img p{
         position: absolute;
         top: 0px;
@@ -60,6 +63,7 @@ ul{
         background-color: black;
         color: white;
         padding: 6px 17px;
+
         
     }
     .main .lable1{
@@ -168,12 +172,12 @@ ul{
     
     .header .container{
         position: fixed;
+        z-index: 1;
         background-color: #fff;
         width: 100%;
         display: flex;
         padding: 18px;
         box-shadow: 0px 2px rgb(226, 226, 226);
-
 
     }
     .header .container .item-menu{
