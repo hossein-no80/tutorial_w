@@ -14,11 +14,11 @@ body{
 }
 .container{
     width: 500px;
-    height: 850px;
+    height: 92vh;
     background-color: white;
     border: 4px solid white;
     border-radius: 10px;
-    margin: 15px auto;
+    margin: 35px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ body{
 }
 
 .input-field{
-    border-bottom: 2px solid #cec8c8;
+    border-bottom: 2px solid #eae7e7;
 }
 .input-field i{
     color: gray;
@@ -143,4 +143,14 @@ a{
 }
 .icon-1 .social-logo:hover{
     background-color: #3B5998;
+}
+
+.icon-1 .color-i1{
+    background-color: #3d52a6;
+}
+.icon-1 .color-i2{
+    background-color: #0c9dd2;
+}
+.icon-1 .color-i3{
+    background-color: #e50606;
 }

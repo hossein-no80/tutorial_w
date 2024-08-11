@@ -5,51 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="users.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <div class="container">
     <div class="header-2">
-        <h1>Login</h1>
+        <h1>Sign up</h1>
     </div>
-    <div class="edit-input">
+    <div  class="edit-input">
         <span class="">Username</span><br>
-        <div class="input-field" >
+        <div id="login-username" class="input-field" >
             <i class="fa-solid fa-user"></i>
-            <input type="text" name="username" placeholder="Type your username">
+            <input id="signup-username" type="text" name="username" placeholder="Type your username">
         </div>
     </div>
-    <div class="edit-input" style="margin-top: 20px">
+    <div  class="edit-input" style="margin-top: 20px">
         <span class="">Password</span><br>
-        <div class="input-field" >
+        <div id="login-password" class="input-field" >
             <i class="fa-solid fa-lock"></i>
-            <input type="password" name="pass" placeholder="Type your password">
+            <input id="signup-password" type="password" name="pass" placeholder="Type your password">
         </div>
     </div>
     <div class="forgot">
         <a href="#">Forgot password?</a>
     </div>
     <div class="buttons">
-        <div class="buttons-1"><input type="submit" name="Login" value="LOGIN"></div>
+        <a href="#" id="login-button" class="buttons-1"><input  type="submit" name="Signup" value="SIGN UP"></a>
     </div>
     <div class="text-p">
         <p>Or Sign Up Using</p>
     </div>
     <div class="icon-1">
-        <a href="#" class="social-logo">
+        <a href="#" class="social-logo  color-i1">
             <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="#" class="social-logo">
+        <a href="#" class="social-logo color-i2">
             <i class="fa-brands fa-twitter"></i>
         </a>
-        <a href="#" class="social-logo">
+        <a href="#" class="social-logo color-i3">
             <i class="fa-brands fa-google"></i>
         </a>
     </div>
     <div class="footer-1">
         <span>Or Sign Up Using</span><br>
-        <a href="#">SING UP</a>
+        <a id="signup-form" href="login.html">LOGIN</a>
     </div>
 
 </div>
+
+<!--------------------------script---------------------------->
+<script src="login.js"></script>
+<script src="./signup.js"></script>
+
 </body>
 </html>
