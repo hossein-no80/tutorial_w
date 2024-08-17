@@ -1,0 +1,56 @@
+body .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header h1{
+    color: #2a86e1;
+}
+header input{
+    width: 500px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 500px;
+}
+main .to-do-list {
+    list-style: none;
+}
+
+main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 1px;
+}
+main ul li button{
+    background-color: cadetblue;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+section form input{
+    width: 450px;
+    height: 40px;
+    font-size: 1.2rem;
+}
+section form button{
+    height: 45px;
+    font-size: 1.2rem;
+    color: #0c9dd2;
+    border:3px solid #0c9dd2;
+    font-weight: bold;
+}

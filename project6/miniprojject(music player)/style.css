@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('Verdana.ttf');
+}
+
+body{
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    outline:none;
+}
+#box{
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#music-name{
+    font-family: Verdana;
+    color: white;
+    margin: 40px 0;
+
+}
+
+
+
+#music-cover{
+    display: block;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0 0 38px -10px #2980b9;
+    animation: glow .5s ease-in-out infinite alternate;
+    animation-play-state: paused;
+}
+
+@keyframes glow {
+    from{
+        box-shadow: 0 0 38px -10px #2980b9;
+    }
+    to{
+        box-shadow: 0 0 38px 10px #2980b9;
+    }
+}
+#music-time{
+    width: 100%;
+    height: 2px;
+    appearance: none;
+    background-color: rgba(255,255,255,.2);
+    margin:60px 0;
+    cursor: pointer;
+}
+
+#music-time::-webkit-slider-thumb{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+#btns{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    color: white;
+}
+#btns i{
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0 20px;
+}
+
